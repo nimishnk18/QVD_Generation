@@ -22,9 +22,17 @@ A QVD file can be created by many different methods but we will be using the <b>
   
 
 <li> Toggle to SQL Editor to view the SQL Query
+  <br> <br>
+  <img width="952" alt="Sql_editor" src="https://user-images.githubusercontent.com/30903014/60299076-134b1380-98e9-11e9-833f-0526f0c8db65.PNG">
+<br>
 <li> Copy the SQL Query
+  <br><br>
+  <img width="823" alt="copy sql" src="https://user-images.githubusercontent.com/30903014/60298811-90c25400-98e8-11e9-81b2-7ae09f56cf61.PNG">
+  <br>
 <li> Now logon to QlikView Desktop using Citrix Receiver. 
-
+<br><br>
+ <img width="474" alt="qlik 1" src="https://user-images.githubusercontent.com/30903014/60299166-51e0ce00-98e9-11e9-949f-c8e2e188fdd4.PNG">
+<br>
 <li> Make sure you are working on QlikView Server. For that
   <ul>
  <li> Enter the server name as - qlikview.jbssa.com
@@ -32,8 +40,20 @@ A QVD file can be created by many different methods but we will be using the <b>
  </ul>
  <li>Now open a new file and Click on Edit Script(CTRL+E)
  <li>Paste the SQL Query you copied
+ <li> Go to your Main Tab -> Use the INSERT statement -> File Name - \\USTXCRQLKF1I -> to Include SAP HANA -> Edit the statement to "MUST_INCLUDE(...)".
+   
+   <br><br>
+   <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
+   <br>
+   <br><br>
+   <img width="479" alt="include sc2" src="https://user-images.githubusercontent.com/30903014/60299475-0549c280-98ea-11e9-9251-6b11bf288c67.PNG">
+   <br>
+   
+   <br><br>
+   <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
+   <br>
  <li> Edit the query to write the table name and Store the query into the specific location.
- <li> Use the INSERT statement in the main tab to Include SAP HANA -> Edit the statement to "MUST_INCLUDE(...)"
+ 
  <li>Save the file 
  <li> Hit the Reload Button
  <li> The QVD file is generated on the location specified.
