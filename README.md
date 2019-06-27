@@ -12,7 +12,9 @@ A QVD file can be created by many different methods but we will be using the <b>
 <li> If you have created a Data Source Object(DSO), double-click on that DSO ->Select Settings -> Enable the checkbox in front of External SAP HANA view
   <br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287543-61ebb400-98cf-11e9-9337-9e5e7489d160.PNG">
-                                             <br>         OR
+                                             <br> 
+                                                      OR
+                                               <br>
 <li> If you have created an Advanced Data Source Object (ADSO), login to Eclipse -> BW Modeling -> Double-click on your ADSO -> Enable the checkbox in front of External SAP HANA view
 <br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287865-361cfe00-98d0-11e9-941b-36f71650c07e.PNG">
@@ -39,8 +41,10 @@ A QVD file can be created by many different methods but we will be using the <b>
  <li> Click Connect
  </ul>
  <li>Now open a new file and Click on Edit Script(CTRL+E)
- <li>Paste the SQL Query you copied
- <li> Go to your Main Tab -> Use the INSERT statement -> File Name - \\USTXCRQLKF1I -> to Include SAP HANA -> Edit the statement to "MUST_INCLUDE(...)".
+ 
+ <li> Go to your Main Tab -> Use the INSERT statement -> File Name - \\USTXCRQLKF1I -> Qlik -> QlikViewStorage -> Include -> Extraction -> SAP HANA BHD/BHQ/BHP 
+  <li>
+   Edit the statement inserted as "MUST_INCLUDE("......").
    
    <br><br>
    <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
@@ -52,6 +56,7 @@ A QVD file can be created by many different methods but we will be using the <b>
    <br><br>
    <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
    <br>
+   <li>Paste the SQL Query you copied in a new tab
  <li> Edit the query to write the table name and Store the query into the specific location.
 <br> <br>
 <img width="463" alt="table_name" src="https://user-images.githubusercontent.com/30903014/60299806-d2ec9500-98ea-11e9-8717-9f0504a8b139.PNG">
