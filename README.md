@@ -19,8 +19,7 @@ A QVD file can be created by many different methods but we will be using the <b>
 <br>
 <li> Login to Eclipse -> SAP HANA Perspective -> Go to your DSO/ADSO -> Find the View which has been created for you (ADSO) or your own view (in case of DSO)
   <br>
-  
-
+ 
 <li> Toggle to SQL Editor to view the SQL Query
   <br> <br>
   <img width="952" alt="Sql_editor" src="https://user-images.githubusercontent.com/30903014/60299076-134b1380-98e9-11e9-833f-0526f0c8db65.PNG">
@@ -31,7 +30,8 @@ A QVD file can be created by many different methods but we will be using the <b>
   <br>
 <li> Now logon to QlikView Desktop using Citrix Receiver. 
 <br><br>
- <img width="474" alt="qlik 1" src="https://user-images.githubusercontent.com/30903014/60299166-51e0ce00-98e9-11e9-949f-c8e2e188fdd4.PNG">
+  <img width="612" alt="Citrix Sc" src="https://user-images.githubusercontent.com/30903014/60299834-e0098400-98ea-11e9-8e83-9299a3d5195a.PNG">
+  
 <br>
 <li> Make sure you are working on QlikView Server. For that
   <ul>
@@ -53,12 +53,22 @@ A QVD file can be created by many different methods but we will be using the <b>
    <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
    <br>
  <li> Edit the query to write the table name and Store the query into the specific location.
- 
- <li>Save the file 
+<br> <br>
+<img width="463" alt="table_name" src="https://user-images.githubusercontent.com/30903014/60299806-d2ec9500-98ea-11e9-8717-9f0504a8b139.PNG">
+<br>
+  <br> <br>
+  <img width="438" alt="store_function" src="https://user-images.githubusercontent.com/30903014/60299802-cff1a480-98ea-11e9-9cd4-3fbc7583c8ff.PNG">
+  <br>
+<li>Save the file 
  <li> Hit the Reload Button
- <li> The QVD file is generated on the location specified.
+   <br><br>
+   <img width="779" alt="Hit_Reload" src="https://user-images.githubusercontent.com/30903014/60299854-eb5caf80-98ea-11e9-9215-0a1d64e2ef64.PNG">
+
+   <br>
+ <li> The QVD file is generated at the location specified.
  </ol>
- <li> Great Work ! Congrats 
+ 
+ Great Work! You have successfully created a QVD.
  
  
  
