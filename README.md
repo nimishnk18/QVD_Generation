@@ -1,6 +1,6 @@
 # QVD_Generation
 
-How to generate a QVD?
+How to generate a QVD for SAP HANA View?
 
 QVD stands for <b>QlikView Data </b> File. It is a native QlikView format which can be written to and read by QlikView.
 <br>
@@ -10,13 +10,13 @@ A QVD file can be created by many different methods but we will be using the <b>
 
 <ol>The steps are as follows:
 <li> If you have created a Data Source Object(DSO), double-click on that DSO ->Select Settings -> Enable the checkbox in front of External SAP HANA view
-  <br>
+  <br><br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287543-61ebb400-98cf-11e9-9337-9e5e7489d160.PNG">
                                              <br> 
                                                       OR
                                                <br>
 <li> If you have created an Advanced Data Source Object (ADSO), login to Eclipse -> BW Modeling -> Double-click on your ADSO -> Enable the checkbox in front of External SAP HANA view
-<br>
+<br><br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287865-361cfe00-98d0-11e9-941b-36f71650c07e.PNG">
 <br>
 <li> Login to Eclipse -> SAP HANA Perspective -> Go to your DSO/ADSO -> Find the View which has been created for you (ADSO) or your own view (in case of DSO)
