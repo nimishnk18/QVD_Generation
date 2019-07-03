@@ -72,8 +72,8 @@ The steps are as follows:
  <br><br>
    <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
   <br><br>
-  
-  
+  <img width="438" alt="include_img" src="https://user-images.githubusercontent.com/30903014/60623985-5aca1780-9da1-11e9-8d40-6f72c1680d49.png">
+  <br>
   <li>
    Edit the statement inserted as "MUST_INCLUDE("......").
    <br>
