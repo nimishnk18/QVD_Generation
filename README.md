@@ -8,21 +8,21 @@ It contains a single table of data and is optimized for fast loading.
 
 A QVD file can be created by many different methods but we will be using the <b><i>Store</b></i> command in QlikView script.
 
-<ol>The steps are as follows:
+The steps are as follows:
+<ol>
 <li> If you have created a Data Source Object(DSO) :
   <br>
   Login to Eclispe > Window > Perspective > BW Modelling  
   <br>
   Then Go to Project Explorer > BW Repository > Folder> Sub-Folder > Data Source Object(Classic) 
-  <br>
+  <br><br>
   
   <img width="738" alt="DSO Classic" src="https://user-images.githubusercontent.com/30903014/60617084-24d06780-9d90-11e9-9ce0-cca07493ad15.PNG">
    <br>
   Double-Click on your DSO > Select Settings > Enable the checkbox in front of External SAP HANA View
-
-                                             <br> 
-                                                      OR
-                                               <br>
+  <br>
+  OR
+   <br>                                            
 <li> If you have created an Advanced Data Source Object (ADSO):
   <br>
   Login to Eclispe > Window > Perspective > BW Modelling  
@@ -37,9 +37,9 @@ A QVD file can be created by many different methods but we will be using the <b>
     
  <li> Now change the perspective to SAP HANA Development
  <li> Go to Project Explorer > Default > System-local > ZBWHANA > Folder > Sub-Folder > Your View
-  <br>
+  <br><br>
    <img width="233" alt="path_createdView_SAP Hana" src="https://user-images.githubusercontent.com/30903014/60617056-171ae200-9d90-11e9-9742-8fde2940648e.PNG">
-   <br>
+   <br><br>
    <li>Now Double-Click on your selected view. In the top-right corner , 
      Go to Data Preview > Open in SQL Editor to view the SQL Query
   <br> <br>
@@ -59,7 +59,7 @@ A QVD file can be created by many different methods but we will be using the <b>
  <li> Enter the server name as - qlikview.jbssa.com
  <li> Click Connect
   <br>
-  ![qlikview_server](https://user-images.githubusercontent.com/30903014/60621324-9dd4bc80-9d9a-11e9-99a3-695f8ce65afe.png)
+  ![qlikview_server](https://user-images.githubusercontent.com/30903014/60622236-015fe980-9d9d-11e9-8e13-6aa4afa4149f.png)
   <br>
  </ul>
  <li>Now open a new file and Click on Edit Script(CTRL+E)
@@ -70,14 +70,11 @@ A QVD file can be created by many different methods but we will be using the <b>
    
    <br><br>
    <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
-   <br>
+   
    <br><br>
-  ![Include_2](https://user-images.githubusercontent.com/30903014/60621329-a200da00-9d9a-11e9-9dfe-c51cda1ed503.png)
+ ![Include_2](https://user-images.githubusercontent.com/30903014/60622234-fefd8f80-9d9c-11e9-9b56-b17df7077db5.png)
   <br><br>
-  <img width="479" alt="include sc2" src="https://user-images.githubusercontent.com/30903014/60299475-0549c280-98ea-11e9-9251-6b11bf288c67.PNG">
-   <br>
-   
-   
+  <img width="479" alt="include sc2" src="https://user-images.githubusercontent.com/30903014/60299475-0549c280-98ea-11e9-9251-6b11bf288c67.PNG"> 
    <br><br>
    <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
    <br>
