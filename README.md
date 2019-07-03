@@ -59,8 +59,12 @@ The steps are as follows:
  <li> Enter the server name as - qlikview.jbssa.com
  <li> Click Connect
  </ul>
- <br><br>
-  ![qlikview_server](https://user-images.githubusercontent.com/30903014/60622236-015fe980-9d9d-11e9-8e13-6aa4afa4149f.png)
+</li>
+
+<br><br>
+
+ <img width="310" alt="server" src="https://user-images.githubusercontent.com/30903014/60623212-513fb000-9d9f-11e9-9826-74da41e157b4.png">
+
   <br><br>
  
  <li>Now open a new file and Click on Edit Script(CTRL+E)
