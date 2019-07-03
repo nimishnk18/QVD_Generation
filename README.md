@@ -30,7 +30,7 @@ The steps are as follows:
   Then Go to Project Explorer > BW Repository > Folder> Sub-Folder > Data Source Object(Advanced)
 <br><br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287865-361cfe00-98d0-11e9-941b-36f71650c07e.PNG">
-  <<br>
+  <br>
    Double-Click on your ADSO > Select Settings > Enable the checkbox in front of External SAP HANA View
 <br>
   <li> A view with the same name as your DSO/ADSO will be automatically generated for you which can be seen in SAP HANA View
@@ -58,13 +58,14 @@ The steps are as follows:
   <ul>
  <li> Enter the server name as - qlikview.jbssa.com
  <li> Click Connect
-  <br>
-  ![qlikview_server](https://user-images.githubusercontent.com/30903014/60622236-015fe980-9d9d-11e9-8e13-6aa4afa4149f.png)
-  <br>
  </ul>
+ <br><br>
+  ![qlikview_server](https://user-images.githubusercontent.com/30903014/60622236-015fe980-9d9d-11e9-8e13-6aa4afa4149f.png)
+  <br><br>
+ 
  <li>Now open a new file and Click on Edit Script(CTRL+E)
  
- <li> Go to your Main Tab -> Use the INSERT statement -> File Name - \\USTXCRQLKF1I -> Qlik -> QlikViewStorage -> Include -> Extraction -> SAP HANA BHD/BHQ/BHP 
+ <li> Go to your Main Tab > Use the INSERT statement > File Name - \\USTXCRQLKF1I > Qlik > QlikViewStorage > Include > Extraction > SAP HANA BHD/BHQ/BHP 
   <li>
    Edit the statement inserted as "MUST_INCLUDE("......").
    
@@ -74,8 +75,6 @@ The steps are as follows:
    <br><br>
  ![Include_2](https://user-images.githubusercontent.com/30903014/60622234-fefd8f80-9d9c-11e9-9b56-b17df7077db5.png)
   <br><br>
-  <img width="479" alt="include sc2" src="https://user-images.githubusercontent.com/30903014/60299475-0549c280-98ea-11e9-9251-6b11bf288c67.PNG"> 
-   <br><br>
    <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
    <br>
    <li>Paste the SQL Query you copied in a new tab
