@@ -69,15 +69,14 @@ The steps are as follows:
  <li>Now open a new file and Click on Edit Script(CTRL+E)
  
  <li> Go to your Main Tab > Use the INSERT statement > File Name - \\USTXCRQLKF1I > Qlik > QlikViewStorage > Include > Extraction > SAP HANA BHD/BHQ/BHP 
+ <br><br>
+   <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
+  <br><br>
+  
+  
   <li>
    Edit the statement inserted as "MUST_INCLUDE("......").
-   
-   <br><br>
-   <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
-   
-   <br><br>
- ![Include_2](https://user-images.githubusercontent.com/30903014/60622234-fefd8f80-9d9c-11e9-9b56-b17df7077db5.png)
-  <br><br>
+   <br>
    <img width="629" alt="must_include" src="https://user-images.githubusercontent.com/30903014/60299496-15fa3880-98ea-11e9-8b78-e2dfdc93b22e.PNG">
    <br>
    <li>Paste the SQL Query you copied in a new tab
