@@ -20,9 +20,9 @@ The steps are as follows:
   <img width="738" alt="DSO Classic" src="https://user-images.githubusercontent.com/30903014/60617084-24d06780-9d90-11e9-9ce0-cca07493ad15.PNG">
    <br>
   Double-Click on your DSO > Select Settings > Enable the checkbox in front of External SAP HANA View
-  <br>
+  <br><br>
   OR
-   <br>                                            
+   <br><br>                                            
 <li> If you have created an Advanced Data Source Object (ADSO):
   <br>
   Login to Eclispe > Window > Perspective > BW Modelling  
@@ -72,7 +72,7 @@ The steps are as follows:
  <br><br>
    <img width="653" alt="include sc" src="https://user-images.githubusercontent.com/30903014/60299284-99fff080-98e9-11e9-8fb7-3e7bc398af43.PNG">
   <br><br>
-  <img width="438" alt="include_img" src="https://user-images.githubusercontent.com/30903014/60623985-5aca1780-9da1-11e9-8d40-6f72c1680d49.png">
+  <img width="500" alt="include_img" src="https://user-images.githubusercontent.com/30903014/60623985-5aca1780-9da1-11e9-8d40-6f72c1680d49.png">
   <br>
   <li>
    Edit the statement inserted as "MUST_INCLUDE("......").
