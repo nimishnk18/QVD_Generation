@@ -1,4 +1,4 @@
-# QVD_Generation
+ <b> QVD_Generation using HANA Views for SAP BW </b>
 
 How to generate a QVD for SAP HANA View?
 
@@ -9,20 +9,38 @@ It contains a single table of data and is optimized for fast loading.
 A QVD file can be created by many different methods but we will be using the <b><i>Store</b></i> command in QlikView script.
 
 <ol>The steps are as follows:
-<li> If you have created a Data Source Object(DSO), double-click on that DSO ->Select Settings -> Enable the checkbox in front of External SAP HANA view
+<li> If you have created a Data Source Object(DSO) :
+  <br>
+  Login to Eclispe > Window > Perspective > BW Modelling  
+  <br>
+  Then Go to Project Explorer > BW Repository > Folder> Sub-Folder > Data Source Object(Classic)
+  <br>
+  Double-Click on your DSO > Select Settings > Enable the checkbox in front of External SAP HANA View
+
   <br><br>
-  <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287543-61ebb400-98cf-11e9-9337-9e5e7489d160.PNG">
+  <img width="738" alt="DSO Classic" src="https://user-images.githubusercontent.com/30903014/60617084-24d06780-9d90-11e9-9ce0-cca07493ad15.PNG">
                                              <br> 
                                                       OR
                                                <br>
-<li> If you have created an Advanced Data Source Object (ADSO), login to Eclipse -> BW Modeling -> Double-click on your ADSO -> Enable the checkbox in front of External SAP HANA view
+<li> If you have created an Advanced Data Source Object (ADSO):
+  <br>
+  Login to Eclispe > Window > Perspective > BW Modelling  
+  <br>
+  Then Go to Project Explorer > BW Repository > Folder> Sub-Folder > Data Source Object(Advanced)
+  
+  Double-Click on your ADSO > Select Settings > Enable the checkbox in front of External SAP HANA View
 <br><br>
   <img width="924" alt="ADSO_SAP Hana View" src="https://user-images.githubusercontent.com/30903014/60287865-361cfe00-98d0-11e9-941b-36f71650c07e.PNG">
 <br>
-<li> Login to Eclipse -> SAP HANA Perspective -> Go to your DSO/ADSO -> Find the View which has been created for you (ADSO) or your own view (in case of DSO)
+  <li> A view with the same name as your DSO/ADSO will be automatically generated for you which can be seen in SAP HANA View
+    
+ <li> Now change the perspective to SAP HANA Development
+ <li> Go to Project Explorer > Default > System-local > ZBWHANA > Folder > Sub-Folder > Your View
   <br>
- 
-<li> Toggle to SQL Editor to view the SQL Query
+   <img width="233" alt="path_createdView_SAP Hana" src="https://user-images.githubusercontent.com/30903014/60617056-171ae200-9d90-11e9-9742-8fde2940648e.PNG">
+   <br>
+   <li>Now Double-Click on your selected view. In the top-right corner , 
+     Go to Data Preview > Open in SQL Editor to view the SQL Query
   <br> <br>
   <img width="952" alt="Sql_editor" src="https://user-images.githubusercontent.com/30903014/60299076-134b1380-98e9-11e9-833f-0526f0c8db65.PNG">
 <br>
